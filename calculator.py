@@ -15,7 +15,7 @@ def divide(a, b):
 
 if ___name___=="___main___":
     print("Простой калькулятор")
-    print("Сложение 5+3=", add(5, 3))
-    print("Вычитание 10-4=", substract(10, 4))
-    print("Умножение 6*7=", multiply(6, 7))
-    print("Деление 15/3=", divide(15, 3))
+    print(f"Сложение 5+3= {add(5, 3)}")
+    print(f"Вычитание 10-4= {substract(10, 4)}")
+    print(f"Умножение 6*7= {multiply(6, 7)}")
+    print(f"Деление 15/3= {divide(15, 3)}")
